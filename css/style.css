@@ -1,0 +1,96 @@
+/* searh-bar start */
+.search-bar {
+
+    width: 600px;
+    height: 30px;
+    text-align: center; margin: auto; margin-top: 180px; vertical-align: middle;
+    border-radius: 30px;
+    opacity: 0.6;
+}
+.search-bar input {
+    width: 300px;
+    height: 25px; 
+    border-radius: 30px;
+    text-align: center;
+}
+/* search-bar end */
+
+/* menu-bar start */
+.menu-bar {
+    background-color: ivory;
+    /* opacity: 0.5; */
+    padding: 0;
+    margin: 0%;
+    margin-top: -10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li {
+    width: 80px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color:saddlebrown;
+}
+
+.active, .menu-bar ul li:hover  {
+    background-color: rgb(226, 198, 177);
+    border-radius: 30px;
+}
+.sub-nav-menu {
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.menu-bar ul li:hover .sub-nav-menu {
+    display: block;
+    position: absolute;
+    background:rgb(226, 198, 177);    
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.menu-bar ul li:hover .sub-nav-menu ul {
+    display: block;
+}
+/* menu-bar end */
+
+body {
+    background-color: rgb(226, 223, 198);
+    background-image: url(https://media.istockphoto.com/photos/composition-with-books-on-the-table-picture-id1158413597?k=6&m=1158413597&s=612x612&w=0&h=bmVCZh_ephJcCbbzAw0bFNk0KYlDL4k_4a5xZeFcqaw=); background-position: center center; 
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    font-family: 'Baloo Chettan 2', cursive; 
+    background-size: 800px;
+}
+p {
+    text-align: center;
+    color: saddlebrown;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: auto;
+    margin-top: 5px;
+    background-color: ivory;
+    opacity: 0.6;
+    display: table;
+    border-radius: 10px;
+}
+button {
+    display: table;
+    position: absolute;
+    width: 60px;
+    right: 30px;
+    padding: 10px;
+    margin-top: -75px;
+    border-radius: 10px;
+    color: saddlebrown;
+    opacity: 0.8;
+}
